@@ -1,0 +1,27 @@
+{
+  "name": "min-darkest",
+  "displayName": "Min Darkest",
+  "description": "Darker take on the Min theme by Miguel Solorio.",
+  "publisher": "pyxel",
+  "version": "0.0.1",
+  "icon": "icon.png",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/xhanna/min-darkest"
+  },
+  "engines": {
+    "vscode": "^1.70.0"
+  },
+  "categories": [
+    "Themes"
+  ],
+  "contributes": {
+    "themes": [
+      {
+        "label": "Min Darkest",
+        "uiTheme": "vs-dark",
+        "path": "./themes/Min Darkest-color-theme.json"
+      }
+    ]
+  }
+}
